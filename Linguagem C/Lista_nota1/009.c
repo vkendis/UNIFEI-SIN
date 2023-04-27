@@ -10,6 +10,6 @@ float horas, faltas, porcentagem;
   scanf(" %f %f ", &horas, &faltas);
 
 porcentagem = (faltas/horas)*100;
-  printf("A porcentagem de horas de faltas na disciplina e igual a % 0.2f % \n", porcentagem);
+  printf("A porcentagem de horas de faltas na disciplina e igual a % 0.2f %% \n", porcentagem);
   return 0;
 }
