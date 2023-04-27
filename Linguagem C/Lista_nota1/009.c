@@ -7,9 +7,9 @@ int main(void) {
 float horas, faltas, porcentagem;
 
   printf("Digite as horas totais e as faltas na disciplina: \n");
-  scanf("%f %f", &horas, &faltas);
+  scanf(" %f %f ", &horas, &faltas);
 
 porcentagem = (faltas/horas)*100;
-  printf("A porcentagem de horas de faltas na disciplina e igual a: %0.2f%: \n", porcentagem);
+  printf("A porcentagem de horas de faltas na disciplina e igual a % 0.2f % \n", porcentagem);
   return 0;
 }
