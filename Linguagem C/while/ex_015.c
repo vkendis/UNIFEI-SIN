@@ -9,8 +9,12 @@ int main() {
     scanf("%d", &n);
 
     while (i <= n) {
-        termo =(2.0 * i - 1) / i;
-        soma += termo;
+       termo =(2.0 * i - 1) / i;
+        if (i % 4 == 1 || i % 4 == 2) { 
+            soma += termo;
+        } else { 
+            soma -= termo;
+        }
         i++;
     }
 
