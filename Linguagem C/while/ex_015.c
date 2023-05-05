@@ -6,7 +6,6 @@ int main() {
     int n, i = 1;
     float termo, soma = 0;
 
-    printf("Digite o valor de N: ");
     scanf("%d", &n);
 
     while (i <= n) {
@@ -15,7 +14,7 @@ int main() {
         i++;
     }
 
-    printf("Soma dos %d primeiros termos: %.2f\n", n, soma);
+    printf("%.2f\n",soma);
 
     return 0;
 }
