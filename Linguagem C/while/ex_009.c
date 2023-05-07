@@ -6,18 +6,21 @@ int main() {
     float soma = 0, num, media;
     int i = 0;
 
-    while (num >= 0) {
-        printf("Digite um numero positivo: ");
-        scanf("%f", &num);
-            
-    if (num < 0) {
-    break; 
-    }
+    scanf("%f", &num);
+    while (num >= 0)
+      {
+        {
+        soma += num;
+        i++;
 
-    soma += num;
-    i++;
-    }
-        media = soma / i;
-        printf("%.1f\n", media);
-    return 0;
+        scanf("%f", &num);
+        
+        }
+      }
+        if (i > 0) 
+        {
+          media = soma / i;
+          printf("%.1f\n", media);
+        }
+return 0;
 }
