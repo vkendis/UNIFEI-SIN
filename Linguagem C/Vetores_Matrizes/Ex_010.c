@@ -5,8 +5,7 @@ int main ()
 {   
     int mat[4][4];
     int i,j;
-    int maior=0;
-
+    int contamaior=0;
     for(i=0;i < 4; i++)
     {
         for(j=0;j < 4; j++)
@@ -21,12 +20,13 @@ int main ()
         {
             if(mat[i][j]> 10)
             {
-                printf("%d ", mat[i][j]);
-                
+                contamaior++;
             }
           
         }
     }
+    printf("%d ", contamaior);
+    
 
 return 0;    
 }

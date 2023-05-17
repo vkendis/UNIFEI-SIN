@@ -8,13 +8,16 @@ int main ()
     int i;
     int maior;
     int menor;
-    int posimaior;
-    int posimenor;
+    int posimaior = 0;
+    int posimenor = 0;
     for(i = 0; i < 10; i++)
     {
         scanf("%d", &vet[i]);
     }
-    for(i = 0; i < 10; i++)
+
+    maior = vet[0];
+    menor = vet[0];
+    for(i = 1; i < 10; i++)
     {
         if(vet[i] > maior)
         {
@@ -27,8 +30,9 @@ int main ()
             posimenor = i;
         }
     }
-    printf("%d ", posimaior);
-    printf("%d", posimenor);
+    printf("%d %d \n", maior, menor);
+    printf("%d %d ", posimaior, posimenor);
+    
 
 
 return 0;    
