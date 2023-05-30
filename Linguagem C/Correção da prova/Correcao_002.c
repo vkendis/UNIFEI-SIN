@@ -15,13 +15,13 @@ int main()
 	int i;
 	int difnp;
 	int difnpfat=1;
-//Definindo valores somente positivos e diferentes de 0       // *****Faltou juntar while com ||*****
+//Definindo valores somente positivos e diferentes de 0       .
 	do{
 		scanf("%d" "%d", &n, &p);
 	}while(n<0 || p<0);
 	
 	
-// algoritmo para fatorial	                            // ****Trocar linha 41 por 29 e decrementar difnp p while****
+// algoritmo para fatorial	                           
 	
 	difnp=(n-p);
 	while(n>0) 
