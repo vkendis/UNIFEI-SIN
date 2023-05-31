@@ -4,14 +4,14 @@ int main(){
     int n;
     float catalan;
     float termo;
-    int sinal = -1;
+    int sinal = 1;
     int denominador = 3;
     
     do  {
             scanf("%d", &n);
         }while (n<=0);
     
-    for (int i = 2; i <= n; i++){
+    for (int i = 1; i <= n; i++){
         termo = 1.0 / (denominador * denominador);
         termo *= sinal;
         catalan += termo;
