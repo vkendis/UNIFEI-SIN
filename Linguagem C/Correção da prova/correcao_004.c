@@ -69,10 +69,18 @@ int main()
 
 // Mostre em uma unica linha contendo elementos impares da matriz que tambem estao presentes no vetor
 	
-	for(i=0;i < p; i++)
-	{
-		if( imparmat[i] == imparvet[i])
-			printf("%d ", imparmat[i]);
-	}
-return 0;	
+	for(i = 0; i < contaimpmat; i++) 
+    {
+		  for(j = 0; j < contaimpvet; j++) 
+        {
+			      if(imparmat[i] == imparvet[j]) 
+                {
+				            printf("%d ", imparmat[i]);
+	              }
+	
+        }
+    } 
+return 0;  
 }
+
+    

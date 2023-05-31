@@ -14,7 +14,6 @@ int main()
 	int comb;
 	int nfat=1;
 	int pfat=1;
-	int i;
 	int difnp;
 	int difnpfat=1;
 //Definindo valores somente positivos e diferentes de 0       .
