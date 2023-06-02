@@ -63,7 +63,8 @@ int main()
 		}
 	}
 
-// Mostre em uma unica linha contendo elementos impares da matriz que tambem estao presentes no vetor     ****correto****
+// Mostre em uma unica linha contendo elementos impares da matriz que tambem estao presentes no vetor     
+// ****Faltou for pra i e j com criterio de parada em contaimpmat e contaimpvet****
 	
 	for(i=0;i < p; i++)
 	{
