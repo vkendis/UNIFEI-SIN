@@ -1,23 +1,30 @@
-//) Faça um programa que leia uma frase e a copie para outro vetor, removendo os espaços em branco.
+//5) Faça um programa que leia uma frase e a copie para outro vetor, removendo os espaços em branco.
 //Imprima o segundo vetor.
-
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main() 
+{
     char frase[50];
     char refrase[50];
-    int tamanho, i;
+    int tamanho, i, j = 0;
 
-    printf("Digite uma frase: ");
-    scanf("%[^\n]", frase);
+    scanf("%[^\n]s", frase);
 
-    
+    tamanho = strlen(frase);
 
-    printf("Frase invertida: ");
-    for (i = tamanho - 1; i >= 0; i--) {
-        printf("%c", frase[i]);
+    for (i = 0; i < tamanho; i++) 
+    {
+        if (frase[i] != ' ') 
+        {
+            refrase[j] = frase[i];
+            j++;
+        }
     }
+
+    refrase[j] = '\0';
+
+    printf("%s\n", refrase);
 
     return 0;
 }

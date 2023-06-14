@@ -1,25 +1,23 @@
-//Faça um programa que leia uma frase e conte quantos espaços existem na frase.
-
+//3) Faça um programa que leia uma frase e conte quantos espaços existem na frase.
 #include <stdio.h>
-#include <ctype.h>
-
+#include <string.h>
 int main ()
 {
-    char frase[30];
-    char lower;
-    int contaspace=0;
-    int i;
+char palavra[100];
+int i;
+int contaspace=0;
+int tam;
 
-    scanf("%[^\n]", frase);
-
-    for(i=0; i<frase[i]; i++)
+scanf(" %[^\n]", palavra);
+tam=strlen(palavra);
+for(i=0;i<tam;i++)
+    {
+        if(palavra[i] == ' ')
         {
-            lower=tolower(frase[i]);
-            if(lower == ' ')
-                {
-                    contaspace++;
-                }
+            contaspace++;
         }
-    printf("%d\n", contaspace);
-return 0;
+    }
+printf("%d", contaspace);
+
+return 0;    
 }
