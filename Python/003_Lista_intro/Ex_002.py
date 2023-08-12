@@ -10,5 +10,5 @@ desconto = int(input())
 
 porcentagem = 1-(desconto/100)
 valorfinal = valorinicial*porcentagem
-valordescontado = valorinicial - valorfinal
+valordescontado = valorinicial - valorfinal 
 print("O valor final do produto foi de: {:.2f} reais e o valor descontado foi de: {:.2f} ".format(valorfinal,valordescontado))
