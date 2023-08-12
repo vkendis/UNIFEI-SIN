@@ -5,3 +5,13 @@ valor da área em função da medida dos três lados do triângulo. A fórmula �
 perímetro). Faça um programa que leia as medidas dos lados do triângulo e mostre o valor de sua área, com 
 uma única casa decimal. 
 """
+
+import math
+
+a = int(input("Digite o valor para a: "))
+b = int(input("Digite o valor para b: "))
+c = int(input("Digite o valor para c: "))
+p = (a+b+c)/2
+
+area = math.sqrt(p*(p-a)*(p-b)*(p-c))
+print("A area do triangulo sera igual a: {:.2f}".format(area))
