@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>PALLET TOWN: POKEMON TRAINER REGISTRATION</header>
+    <main>
+        <button onclick="playAudio()">MUSIC</button>
+
+        <audio id="backgroundMusic" loop>
+            <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/142927/intro.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        
+        <div class="tenor-gif-embed" data-postid="17825572" data-share-method="host" data-aspect-ratio="2.53968" data-width="70%">
+            <a href="https://tenor.com/view/pokemon-battle-pokemon-old-art-fight-battle-gif-17825572">Pokemon Battle Pokemon GIF</a> from <a href="https://tenor.com/search/pokemon+battle-gifs">Pokemon Battle GIFs</a>
+        </div> 
+        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <fieldset>
+            
+            <legend>Pokemon Trainer Infos</legend>
+            <div>
+            <label>Enter your Name:</label>
+            <input type="text" id="nome">
+        </fieldset>
+        <fieldset>
+            <legend>Choose Your Pokémon</legend>
+            <div class="pokemon-choice">
+                <input type="radio" id="bulbasaur" name="pokemon" value="Bulbasaur">
+                <label for="bulbasaur">
+                    <img src="WnES.gif" alt="Bulbasaur" style="width:50px;height:auto;">
+                    Bulbasaur
+                <input type="radio" id="Charmander" name="pokemon" value="Charmander">
+                <label for="Squirtle">
+                    <img src="aaaa.gif" alt="Charmander" style="width:80px;height:auto;">
+                    Charmander
+                <input type="radio" id="Squirtle" name="pokemon" value="Squirtle">
+                <label for="Squirtle">
+                    <img src="ZDcp.gif" alt="Squirtle" style="width:50px;height:auto;">
+                    Squirtle    
+                </div>
+        </fieldset>
+
+        <button id="saveButton" onclick="submitForm()">SAVE</button>
+
+    </main>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById('backgroundMusic');
+            audio.volume = 0.5;
+            audio.play().catch(error => console.error("Erro ao tentar reproduzir o áudio:", error));
+        }
+    </script>
+    
+                
+</body>
+</html>
