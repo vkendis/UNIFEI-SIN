@@ -1,0 +1,69 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+h1 {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+img {
+    display: block;
+    margin: 10px auto; 
+    width: 50%; 
+    height: auto;
+    margin-bottom: 40px;
+}
+
+
+#idAreaEquacao, #idAreaResp {
+    border: 1px dashed black;
+    border-radius: 20px;
+    height: 50px;
+    width: 50%; 
+    margin: 20px auto; 
+    text-align: center;
+    font-size: 24px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.game-pergunta, .game-resposta {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc;
+    font-family: "Raleway", sans-serif;
+}
+
+input[type="number"] {
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+
+.game-area {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    margin: 40px auto; 
+    background-color: #f9f9f9;
+    font-family: "Raleway", sans-serif;
+}
+.hidden {
+    display: none; 
+}

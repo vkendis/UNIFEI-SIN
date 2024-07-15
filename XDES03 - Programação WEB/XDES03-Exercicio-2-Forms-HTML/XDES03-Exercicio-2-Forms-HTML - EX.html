@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Apresentação UNIFEI</title>
+</head>
+<body>
+    <header>
+            <ul>
+                <li><a href="https://unifei.edu.br/" target="_blank">UNIFEI</a></li>
+                <li><a href="https://proex.unifei.edu.br/" target="_blank">PROEX</a></li>
+                <li><a href="https://www.instagram.com/integra.unifei/" target="_blank">INTEGRA UNIFEI</a></li>
+            </ul>
+        <H1>Formulário de Apresentação de Projetos de Extensão</H1>
+        <p>
+            Nesse formulário sua equipe deverá preencher os dados so seu projeto de extensão para que a PROEX possa distribuir os stands da forma mais adequada.
+        </p>
+    </header>
+    <main>
+        <form id="projetoForm" action="#">
+            <fieldset>
+                <legend>Identificação do Projeto</legend>
+                <label for="nome">Nome do Projeto</label>
+                <input type="text" name="nome" id="nome" value="">
+
+                <label for="Quantidade">Quantidade de Integrantes</label>
+                <input type="text" name="Quantidade" id="Quantidade" value="">
+
+                <label for="Instituto">Instituto de Localização</label>
+                <input type="text" name="Instituto" id="Instituto" value="">
+            </fieldset>
+            
+            <fieldset>
+                <legend>Área de Atuação</legend>
+                <p>Selecione apenas uma opção</p>
+                 <!--Adicionei name="teste". -> Essa ação me permite agrupar as opções ao mesmo grupo, impossibilitando de marcar mais de uma opção-->
+                <input type="radio" name="teste" id="web">
+                <label for="web">Aplicação Web/Mobile</label>
+                <input type="radio" name="teste" id="dev">
+                <label for="dev">Desenvolvimento de Jogos</label>
+                <input type="radio" name="teste" id="drones">
+                <label for="drones">Drones</label>
+                <input type="radio" name="teste" id="robos">
+                <label for="robos">Competição de Robôs</label>
+                <input type="radio" name="teste" id="cont">
+                <label for="cont">Contabilidade</label>
+                <input type="radio" name="teste" id="meteo">
+                <label for="meteo">Meteorologia</label>
+            </fieldset>
+            <fieldset>
+                <legend>Fomento</legend>
+                <label for="tipo">Tipo</label>
+                <select name="tipo" id="tipo">
+                    <option value ="" disabled selected>Selecione uma opção...</option>
+                     <!--Marquei disabled selected para nao ser uma opção clicável dentro do combobox-->
+                    <option value ="empresaj">Empresa Júnior</option>
+                    <option value ="ong">ONG</option>
+                    <option value ="Competição">Equipe de Competição</option>
+                </select>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>Feito com 🖤 por: <a href="https://github.com/vkendis"> Vinícius Kendi Sasaki</a></p>
+    </footer>
+</body>
+</html>

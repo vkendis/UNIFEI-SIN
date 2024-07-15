@@ -1,0 +1,87 @@
+/* Na primeira parte realizei a importacao da fonte externa via Link */
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    background-color:rgb(240, 224, 202);
+    margin: 0;     
+    padding: 0;
+}
+/* Posicionamento Central do H1 */
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* Adicionei Margin e Padding 0 para que comecassem no ponto (0,0) da pagina */ 
+nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+/* Com esse display 'Steam'e 'Dev-U' aparecerao em Linha */
+nav ul li {
+    display: inline; 
+}
+/* inline-block para manter a natureza de bloco, ajustavel e disposto em linha */
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    margin:  10px 30px; 
+    text-decoration: none;
+}
+
+/* Parte comum do bloco
+margin 0px, sem afastamento forcado. Auto centralizado em largura */
+.login {
+    border: 3px solid black; 
+    width: 700px;
+    padding: 20px;
+    margin: 0px auto;
+    border-radius: 25px;
+    text-align: center;
+}
+/* usei referencia por id para mudar somente essa frase da section login, orientacao esquerda */
+#p-login {
+    text-align: left;
+    text-decoration: underline;
+    color: black;
+    font-size: 23px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+
+}
+/* login label em bloco para que "pulasse linha" */
+.login label {
+    display: block;
+    margin:5px
+}
+/* Usei width 60 para ter 60 por cento referente ao ancestral login  */
+.login input {
+    width: 60%;
+    padding: 18px;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: 'Press Start 2P';
+}
+/* Ajustes padroes para o botao de Entrar */
+.login button {
+    
+    color: black;
+    background-color: whitesmoke;
+    margin: 10px auto;
+    width: 200px;
+    height: 25px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 18px;
+    font-family: 'Press Start 2P';
+    
+}
+/* Referencia pelo id wololo-monk para fazer ajustes de espacamento */
+#Wololo-monk{
+padding : 0px;
+margin-top: 30px;;
+}
+

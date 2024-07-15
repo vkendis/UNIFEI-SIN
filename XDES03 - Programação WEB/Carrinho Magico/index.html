@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras Mágico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Carrinho de Compras Mágico</h1>
+        <div class="product-input">
+            <label for="product-name">Nome</label>
+            <input type="text" id="product-name" />
+            <div class="quantity-controls">
+                <button id="decrement" class="quantity-button red-button">-</button>
+                <span id="quantity">1</span>
+                <button id="increment" class="quantity-button green-button">+</button>
+            </div>
+            <button id="add-button" class="add-button">Adicionar</button>
+        </div>
+        <div class="product-list">
+            <h2>Meus Produtos</h2>
+            <ul id="product-items"></ul>
+            <p id="total-products">Total de Produtos: 0</p>
+        </div>
+        <footer>
+            Feito com &hearts; por <a href="https://github.com/vkendis" target="_blank">Kendi</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

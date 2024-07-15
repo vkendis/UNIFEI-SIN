@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Adivinhação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Adivinhação</h1>
+        <div class="game-area">
+            <div class="image-container">
+                <img src="fig-prova.jpeg" alt="Thinking Image">
+            </div>
+            <div class="thought-area">
+                <p>Olá! Irei pensar em um número entre 'início' e 'fim'.</p>
+                <p>Após digitar os números clique em 'Pensar'</p>
+                <label for="inicio">Início</label>
+                <input type="number" id="inicio">
+                <label for="fim">Fim</label>
+                <input type="number" id="fim">
+                <button id="pensar-btn">Pensar</button>
+                <div id="message"></div>
+            </div>
+            <div class="guess-area">
+                <label for="guess">Qual número estou pensando?</label>
+                <input type="number" id="guess">
+                <button id="guess-btn">Adivinhar</button>
+                <div id="guess-message"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Mágica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Mágica</h1>
+        <div class="calculator">
+            <input type="number" id="op1" placeholder="OP1">
+            <span id="operator">+</span>
+            <input type="number" id="op2" placeholder="OP2">
+            <div class="buttons">
+                <button id = "+"onclick="setOperation('+')">+</button>
+                <button id = "-"onclick="setOperation('-')">-</button>
+                <button id = "*"onclick="setOperation('*')">*</button>
+                <button id = "="onclick="calculate()">=</button>
+            </div>
+            <div id="result">Resultado:</div>
+        </div>
+    </div>
+    <footer>
+        Feito com &hearts; por <a href="https://github.com/vkendis" target="_blank">Kendi</a>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
