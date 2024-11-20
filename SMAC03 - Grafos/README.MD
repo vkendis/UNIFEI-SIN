@@ -71,11 +71,13 @@ Scripts: Código para filtragem, modelagem e aplicação de Louvain.
 Imagens: Visualizações dos grafos e comunidades detectadas.
 
 ## ✒️ Autores
-Breno
-Laviny Laurindo
-Vinícius Kendi
-Pedro
-Rodrigo
+
+- Breno
+- Laviny Laurindo
+- Vinícius Kendi
+- Pedro
+- Rodrigo
+
 
 ## 👨‍🏫 Orientador
 Rafael Frinhani
