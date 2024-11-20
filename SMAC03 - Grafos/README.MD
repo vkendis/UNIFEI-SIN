@@ -50,16 +50,16 @@ Los Angeles enfrenta altos índices de criminalidade, o que gera desafios signif
 ## 🖥️ Interface
 
 ### Grafo com 10 Amostras - Layout Reduzido
-![Grafo 10 Amostras Reduzido](SMAC03%20-%20Grafos/Imagens/grafo_10amostras_red.png)
+![Grafo 10 Amostras Reduzido](Imagens/grafo_10amostras_red.png)
 
 ### Grafo com 10 Amostras - Layout Normal
-![Grafo 10 Amostras Normal](SMAC03%20-%20Grafos/Imagens/grafo_10amostras_normal.png)
+![Grafo 10 Amostras Normal](Imagens/grafo_10amostras_normal.png)
 
 ### Algoritmo de Louvain
-![Louvain](SMAC03%20-%20Grafos/Imagens/louvain.png)
+![Louvain](Imagens/louvain.png)
 
 ### Modelagem com 1000 Amostras
-![Modelagem com 1000 Amostras](SMAC03%20-%20Grafos/Imagens/modelagem_1000.png)
+![Modelagem com 1000 Amostras](Imagens/modelagem_1000.png)
 
 ## 🚀 Como Executar
 
