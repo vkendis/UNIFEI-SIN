@@ -1,8 +1,12 @@
 # Análise Criminal e Teoria dos Grafos - SMAC03
 
 <p align="center">
-    <img src="Imagens/unifei.png" alt="Logo UNIFEI" height="120">
     <img src="Imagens/la.png" alt="Logo Polícia de LA" height="120">
+
+
+    <img src="Imagens/unifei.png" alt="Logo UNIFEI" height="120">
+
+
     <img src="Imagens/logo.png" alt="Logo Olimpíadas" height="120">
 </p>
 
@@ -61,23 +65,21 @@ Los Angeles enfrenta altos índices de criminalidade, o que gera desafios signif
 ### Modelagem com 1000 Amostras
 ![Modelagem com 1000 Amostras](Imagens/modelagem_1000.png)
 
-## 🚀 Como Executar
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-repositorio.git
-
-📁 Estrutura do Repositório
+## 📁 Estrutura do Repositório
 CSV Original: Dados completos dos incidentes criminais.
 CSV Filtrado: Dados processados com crimes mais frequentes e atributos categorizados.
 Scripts: Código para filtragem, modelagem e aplicação de Louvain.
 Imagens: Visualizações dos grafos e comunidades detectadas.
-✒️ Autores
+
+## ✒️ Autores
 Breno
 Laviny Laurindo
 Vinícius Kendi
 Pedro
 Rodrigo
-👨‍🏫 Orientador
+
+## 👨‍🏫 Orientador
 Rafael Frinhani
-<p align="center">Feito com ❤️ pelo Grupo 03</p> ```
+
+<p align="center">Feito com ❤️ pelo Grupo 03</p>
