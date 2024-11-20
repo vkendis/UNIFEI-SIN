@@ -1,10 +1,11 @@
 # Análise Criminal e Teoria dos Grafos - SMAC03
 
 <p align="center">
-<img src="SMAC03%20-%20Grafos/Imagens/unifei.png" height="150" width="150">
-<img src="SMAC03%20-%20Grafos/Imagens/la.png" height="150" width="150">
-<img src="SMAC03%20-%20Grafos/Imagens/logo.png" height="150" width="150">
+    <img src="Imagens/unifei.png" alt="Logo UNIFEI" height="120">
+    <img src="Imagens/la.png" alt="Logo Polícia de LA" height="120">
+    <img src="Imagens/logo.png" alt="Logo Olimpíadas" height="120">
 </p>
+
 
 ## 🎯 Objetivo
 
