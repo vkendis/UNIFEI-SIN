@@ -2,11 +2,7 @@
 
 <p align="center">
     <img src="Imagens/la.png" alt="Logo Polícia de LA" height="120">
-
-
     <img src="Imagens/unifei.png" alt="Logo UNIFEI" height="120">
-
-
     <img src="Imagens/logo.png" alt="Logo Olimpíadas" height="120">
 </p>
 
