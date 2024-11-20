@@ -55,14 +55,13 @@ Los Angeles enfrenta altos índices de criminalidade, o que gera desafios signif
 ### Grafo com 10 Amostras - Layout Reduzido
 ![Grafo 10 Amostras Reduzido](Imagens/grafo_10amostras_red.png)
 
-### Grafo com 10 Amostras - Layout Normal
-![Grafo 10 Amostras Normal](Imagens/grafo_10amostras_normal.png)
+### Modelagem com 1000 Amostras
+![Modelagem com 1000 Amostras](Imagens/modelagem_1000.png)
 
 ### Algoritmo de Louvain
 ![Louvain](Imagens/louvain.png)
 
-### Modelagem com 1000 Amostras
-![Modelagem com 1000 Amostras](Imagens/modelagem_1000.png)
+
 
 
 ## 📁 Estrutura do Repositório
