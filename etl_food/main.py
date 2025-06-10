@@ -1,5 +1,7 @@
 # main.py
 import traceback
+import json
+from pathlib import Path
 from sqlalchemy.orm import Session
 
 from database import get_db_session, create_database_tables, DATABASE_URL
@@ -32,12 +34,13 @@ def process_product_etl(product_code_to_fetch: str, db: Session, api_base_url: s
 def run_etl_pipeline():
     create_database_tables()
 
-    product_codes = [
-        "3155250349793", 
-        "7622210449283", 
-        "3017620422003",
-        "000000000000000",
-    ]
+    # Caminho para o arquivo JSON
+    json_path = Path("product_codes_dict.json")
+
+    # Carregar códigos do arquivo JSON
+    with open(json_path, "r", encoding="utf-8") as f:
+        product_codes_json = json.load(f)
+        product_codes = [str(item["code"]) for item in product_codes_json]
 
     db_session = get_db_session()
     db: Session = next(db_session)
